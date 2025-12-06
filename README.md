@@ -1,7 +1,7 @@
 # StudentGradingsystem
 # 🎓 Student Grading System (Java Servlets + JDBC + MySQL)
 
-The **Student Grading System** is a web-based application built using **Java Servlets**, **JSP**, **JDBC**, and **MySQL**.  
+The **Student Grading System** is a web-based application built using **Java Servlets**, **JDBC**, and **MySQL**.  
 It allows teachers/admins to add students, update marks, calculate grades, and view results through an interactive dashboard.
 
 ---
