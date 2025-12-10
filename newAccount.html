@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>New User Registration</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eef7ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .form-container {
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 350px;
+    }
+
+    .form-container h2 {
+      text-align: center;
+      color: #3366cc;
+      margin-bottom: 30px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #003366;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #aaccee;
+      border-radius: 8px;
+      font-size: 14px;
+      background-color: #f4faff;
+    }
+
+    .button-group {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      background-color: #a7d4ff;
+      color: #003366;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #92c6f5;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>New User Registration</h2>
+    <form action="new" method="post">
+      <label for="name">Enter Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Enter ID</label>
+      <input type="text" id="email" name="email" required>
+
+      <label for="password">Enter Password</label>
+      <input type="password" id="password" name="password" required>
+
+      <label for="confirm">Confirm Password</label>
+      <input type="password" id="confirm" name="confirm" required>
+
+      <div class="button-group">
+        <button type="submit">Save</button>
+        
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
