@@ -6,7 +6,7 @@ It allows teachers/admins to add students, update marks, calculate grades, and v
 
 ---
 
-## 🚀 Features
+## 🚀 Features-
 
 ### 👤 **Admin Panel**
 - Add new students  
@@ -17,7 +17,7 @@ It allows teachers/admins to add students, update marks, calculate grades, and v
 
 
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack-
 
 - **Frontend**: HTML, CSS 
 - **Backend**: Java Servlets  
