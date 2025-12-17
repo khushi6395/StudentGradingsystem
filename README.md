@@ -23,9 +23,7 @@ It allows teachers/admins to add students, update marks, calculate grades, and v
 - **Backend**: Java Servlets  
 - **Database**: MySQL  
 - **JDBC**: For database connectivity  
-- **Server**: Apache Tomcat  10
-
----
+- **Server**: Apache Tomcat  10.0.27
 
 
 
